@@ -2,7 +2,7 @@
 
 #### APITUBE is a NodeJS Module to interact with the `YouTube Data API v3` | Join our [Discord Server](https://monkedev.com/r/discord) for support
 
-> **Disclaimer**: This package relies on user feedback. Check out our [Contributing]() guide to see how you can help!
+> **Disclaimer**: This package relies on user feedback. Check out our [Contributing](https://github.com/BurnedBed/apitube/blob/main/CONTRIBUTING.md) guide to see how you can help!
 
 ---
 
@@ -36,11 +36,11 @@ yt.fetch('/search/', {
 
 ## **T**able **O**f **C**ontents
 
-- [Documentation]()
-- [Tutorials]()
-- [Examples]()
-- [Contributing]()
-- [License]()
+- [Documentation](https://github.com/BurnedBed/apitube/blob/main/docs.md)
+- [Tutorials](https://github.com/BurnedBed/apitube/blob/main/tutorials.md)
+- [Examples](https://github.com/BurnedBed/apitube/blob/main/examples/)
+- [Contributing](https://github.com/BurnedBed/apitube/blob/main/CONTRIBUTING.md)
+- [License](https://github.com/BurnedBed/apitube/blob/main/LICENSE)
 
 ## Notice
 
