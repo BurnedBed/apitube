@@ -53,37 +53,4 @@ module.exports = class APITUBE {
 		return p(reqObj)
 			.then(res => res.body);
 	}
-
-	/**
-	 * @method ConvertToVideoId
-	 * @description Converts a video URL to Id
-	 * @param {String} videoUrl
-	 */
-	convertToVideoId(videoUrl) {
-		if (!videoUrl || typeof videoUrl !== 'string') throw new Error('Provide a playlistUrl');
-		const videoRegex = /^((?:https?:)?\/\/)?((?:www|m)\.)?((?:youtube\.com|youtu.be))(\/(?:[\w-]+\?v=|embed\/|v\/)?)([\w-]+)(\S+)?$/;
-		return videoUrl.match(videoRegex)[5];
-	}
-
-	/**
-	 * @method ConvertToChannelId
-	 * @description Converts a channel URL to Id
-	 * @param {String} channelUrl
-	 */
-	convertToChannelId(channelUrl) {
-		if (!channelUrl || typeof channelUrl !== 'string') throw new Error('Provide a playlistUrl');
-		const channelRegex = /^(?:(http|https):\/\/[a-zA-Z-]*\.{0,1}[a-zA-Z-]{3,}\.[a-z]{2,})\/channel\/([a-zA-Z0-9_]{3,})$/;
-		return channelUrl.match(channelRegex)[3];
-	}
-
-	/**
-	 * @method ConvertToPlaylistId
-	 * @description Converts a playlist URL to Id
-	 * @param {String} playlistUrl
-	 */
-	convertToPlaylistId(playlistUrl) {
-		if (!playlistUrl || typeof playlistUrl !== 'string') throw new Error('Provide a playlistUrl');
-		const playlistRegex = /^(https|http):\/\/(?:www\.)?youtube\.com\/watch\?(?:&.*)*((?:v=([a-zA-Z0-9_-]{11})(?:&.*)*&list=([a-zA-Z0-9_-]{18}))|(?:list=([a-zA-Z0-9_-]{18})(?:&.*)*&v=([a-zA-Z0-9_-]{11})))(?:&.*)*(?:#.*)*$/;
-		return playlistUrl.match(playlistRegex)[5];
-	}
 };
