@@ -34,7 +34,7 @@ yt.fetch('/search/', {
 });
 ```
 
-## **T**able **O**f **C**ontents
+## Table Of Contents
 
 - [Documentation](https://github.com/BurnedBed/apitube/blob/main/docs)
 - [Tutorials](https://github.com/BurnedBed/apitube/blob/main/tutorials.md)
