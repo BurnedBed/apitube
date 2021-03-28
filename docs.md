@@ -1,10 +1,9 @@
 # Documentation
 
-| Type | Interface | Key |
-
 ### APITUBE#fetch()
 
 ```ts
+// Default BaseURL: 'https://www.googleapis.com/youtube/v3'
 /**
  * @method fetch
  * @description Fetch from the YouTube Data API v3
