@@ -36,7 +36,7 @@ yt.fetch('/search/', {
 
 ## **T**able **O**f **C**ontents
 
-- [Documentation](https://github.com/BurnedBed/apitube/blob/main/docs.md)
+- [Documentation](https://github.com/BurnedBed/apitube/blob/main/docs)
 - [Tutorials](https://github.com/BurnedBed/apitube/blob/main/tutorials.md)
 - [Examples](https://github.com/BurnedBed/apitube/blob/main/examples/)
 - [Contributing](https://github.com/BurnedBed/apitube/blob/main/CONTRIBUTING.md)

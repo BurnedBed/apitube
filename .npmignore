@@ -1,0 +1,14 @@
+# Packages
+NODE_MODULES
+
+# Linter 
+.eslintrc.json
+
+# Other
+docs
+
+examples
+
+CONTRIBUTING.md
+
+tutorials.md
