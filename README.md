@@ -1,6 +1,6 @@
 # APITUBE
 
-#### APITUBE is a NodeJS Module to interact with the `YouTube Data API v3` | Join our [Discord Server](https://monkedev.com/r/discord) for support
+#### APITUBE is a NodeJS Module to interact with the [`YouTube Data API v3`](https://developers.google.com/youtube/v3/docs/?apix=true) | Join our [Discord Server](https://monkedev.com/r/discord) for support
 
 > **Disclaimer**: This package relies on user feedback. Check out our [Contributing](https://github.com/BurnedBed/apitube/blob/main/CONTRIBUTING.md) guide to see how you can help!
 
