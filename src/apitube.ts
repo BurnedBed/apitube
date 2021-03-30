@@ -58,7 +58,7 @@ export default class APITUBE {
 
 		if (options?.body) reqObj.data = options.body;
 
-		if (options && options.debug === true) return reqObj;
+		if (options?.debug === true) return reqObj;
 		return p(reqObj)
 			.then(res => res.body);
 	}

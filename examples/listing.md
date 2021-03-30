@@ -1,6 +1,6 @@
 > Searching requires an `apikey` in most use cases
 
-### Searches for a video on YouTube with basic error handling
+### Searches for a video on YouTube
 
 ```ts
 import APITUBE from 'apitube';
