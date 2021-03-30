@@ -1,6 +1,9 @@
 # Packages
 NODE_MODULES
 
+# src -> dist
+src
+
 # Linter 
 .eslintrc.json
 

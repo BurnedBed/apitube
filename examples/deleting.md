@@ -4,7 +4,7 @@
 
 ```ts
 (async () => {
-	const APITUBE = require('apitube');
+	import APITUBE from 'apitube';
 	const yt = new APITUBE(apikey: string, access_token: string);
 
 	try {

@@ -3,7 +3,7 @@
 ### Searches for a video on YouTube with basic error handling
 
 ```ts
-const APITUBE = require('apitube');
+import APITUBE from 'apitube';
 const yt = new APITUBE(apikey: string, access_token: string);
 
 yt.fetch('/search/', {
@@ -22,7 +22,7 @@ yt.fetch('/search/', {
 ### Searching for videos from a channel
 
 ```ts
-const APITUBE = require('apitube');
+import APITUBE from 'apitube';
 const yt = new APITUBE(apikey: string, access_token: string);
 
 yt.fetch('/search/', {

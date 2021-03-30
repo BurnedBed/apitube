@@ -18,7 +18,7 @@ npm github:BurnedBed/apitube#dev
 ## Quick Example
 
 ```ts
-const APITUBE = require('apitube');
+import APITUBE from 'apitube';
 const yt = new APITUBE(apikey: string, access_token: string);
 
 yt.fetch('/search/', {

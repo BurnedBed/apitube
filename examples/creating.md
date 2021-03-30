@@ -3,7 +3,7 @@
 ### Creating a video
 
 ```ts
-const APITUBE = require('apitube');
+import APITUBE from 'apitube';
 const fs = require('fs');
 const yt = new APITUBE(apikey: string, access_token: string);
 const video = fs.readFileSync('./assets/myvid.mp4');
@@ -18,7 +18,7 @@ yt.fetch('/videos/', {
 ### Creating a channelBanner
 
 ```ts
-const APITUBE = require('apitube');
+import APITUBE from 'apitube';
 const fs = require('fs');
 const yt = new APITUBE(apikey: string, access_token: string);
 const channelBanner = fs.readFileSync('./assets/banner.png');
@@ -32,7 +32,7 @@ yt.fetch('/channelBanners/insert/', {
 ### Setting a thumbnail
 
 ```ts
-const APITUBE = require('apitube');
+import APITUBE from 'apitube';
 const fs = require('fs');
 const yt = new APITUBE(apikey: string, access_token: string);
 const thumbnail = fs.readFileSync('./assets/thumbnail.png');

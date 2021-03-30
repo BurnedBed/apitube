@@ -1,13 +1,14 @@
 {
   "name": "apitube",
-  "version": "1.0.0",
+  "version": "1.5.0",
   "description": "A NodeJS Module to interact with the YouTube Data API v3.",
-  "main": "apitube.js",
+  "main": "dist/apitube.js",
+  "types": "dist/apitube.d.ts",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -p ."
   },
   "keywords": [
     "YouTube Data API v3",
@@ -30,10 +31,6 @@
     "phin": "^3.5.1"
   },
   "devDependencies": {
-    "eslint": "^7.23.0",
-    "eslint-config-standard": "^16.0.2",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.3.1"
+    "typescript": "^4.2.3"
   }
 }

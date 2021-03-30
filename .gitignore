@@ -1,2 +1,5 @@
+# outDir
+dist
+
 # do `npm i` in the console
 NODE_MODULES
