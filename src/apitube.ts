@@ -1,4 +1,3 @@
-/* eslint-disable no-tabs */
 import p from 'phin';
 export type allMethods = 'GET' | 'POST' | 'PUT' | 'DELETE'
 export interface fetchOptions {
@@ -13,10 +12,8 @@ export interface fetchOptions {
 export default class APITUBE {
 	apikey: string;
 	access_token: string;
-	// eslint-disable-next-line camelcase
 	constructor(apikey: string, access_token: string) {
 		this.apikey = apikey;
-		// eslint-disable-next-line camelcase
 		this.access_token = access_token;
 	}
 

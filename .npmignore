@@ -4,9 +4,6 @@ NODE_MODULES
 # src -> dist
 src
 
-# Linter 
-.eslintrc.json
-
 # Other
 docs
 
