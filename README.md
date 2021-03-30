@@ -12,13 +12,13 @@
 - Stable
 npm install apitube
 - Developer
-npm github:BurnedBed/apitube#dev
+npm install github:BurnedBed/apitube#dev
 ```
 
 ## Quick Example
 
 ```ts
-import APITUBE from 'apitube';
+const apitube = require('apitube').default;
 const yt = new APITUBE(apikey: string, access_token: string);
 
 yt.fetch('/search/', {
@@ -44,4 +44,4 @@ yt.fetch('/search/', {
 
 ## Notice
 
-##### The YouTube Data API v3 requires you to have an `apikey` and an `access_token` (if accessing your Google account). You can check out a tutorials on how to receive both by [clicking here]().
+##### The YouTube Data API v3 requires you to have an `apikey` and an `access_token` (if accessing your Google account). You can check out a tutorials on how to receive both by [clicking here](https://github.com/BurnedBed/apitube/blob/main/tutorials.md).

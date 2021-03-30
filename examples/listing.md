@@ -3,7 +3,7 @@
 ### Searches for a video on YouTube
 
 ```ts
-import APITUBE from 'apitube';
+const apitube = require('apitube').default;
 const yt = new APITUBE(apikey: string, access_token: string);
 
 yt.fetch('/search/', {
@@ -22,7 +22,7 @@ yt.fetch('/search/', {
 ### Searching for videos from a channel
 
 ```ts
-import APITUBE from 'apitube';
+const apitube = require('apitube').default;
 const yt = new APITUBE(apikey: string, access_token: string);
 
 yt.fetch('/search/', {

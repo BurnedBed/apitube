@@ -1,6 +1,6 @@
 {
   "name": "apitube",
-  "version": "1.5.1",
+  "version": "1.5.3",
   "description": "A NodeJS Module to interact with the YouTube Data API v3.",
   "main": "dist/apitube.js",
   "types": "dist/apitube.d.ts",

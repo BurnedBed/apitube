@@ -3,7 +3,7 @@
 ### Updating a video
 
 ```ts
-import APITUBE from 'apitube';
+const apitube = require('apitube').default;
 const yt = new APITUBE(apikey: string, access_token: string);
 
 yt.fetch('/videos/', {
